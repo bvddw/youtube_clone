@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a class="youtube-link" href="https://www.youtube.com/"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YT apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notification</div>
+        </div>
+        <img class="current-profile-picture" src="profile_picture/profile_picture.jpg">
+      </div>
+    </div>
+
+    <div class="side-bar">
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/home.svg">
+        <p class="side-bar-picture-description">Home</p>
+      </div>
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/explore.svg">
+        <p class="side-bar-picture-description">Explore</p>
+      </div>
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/subscriptions.svg">
+        <p class="side-bar-picture-description">Subscriptions</p>
+      </div>
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/originals.svg">
+        <p class="side-bar-picture-description">Originals</p>
+      </div>
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/youtube-music.svg">
+        <p class="side-bar-picture-description">YouTube Music</p>
+      </div>
+      <div class="side-bar-link">
+        <img class="side-bar-picture" src="icons/library.svg">
+        <p class="side-bar-picture-description">Library</p>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=iceS6BvhuQ8&ab_channel=EpicMusicWorld"><img class="images" src="images/violin_music.webp"></a>
+          <div class="video-time">51:25</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@EpicMusicWorld_Official"><img class="yt-profile-picture" src="images/profile1.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=iceS6BvhuQ8&ab_channel=EpicMusicWorld">
+              <p class="youtube-video-title">
+                If You Need The Most Awesome Violin Music, Hear This &#183; "FORGOTTEN ODES" by<a class="youtube-link" href="https://www.youtube.com/channel/UCrWOKY-Gs-0w5mPxPBOm-Vw"><span class="link-to-another-channel">@eternal-eclipse</span></a>
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@EpicMusicWorld_Official">
+              <p class="youtube-video-author">
+                Epic Music World
+              </p>
+            </a>
+            <p class="youtube-video-stats">
+              17M views &#183; 3y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=pEfrdAtAmqk&t=2s&ab_channel=Fireship"><img class="images" src="images/second_video_preview.webp"></a>
+          <div class="video-time">16:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@Fireship"><img class="yt-profile-picture" src="images/profile2.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=pEfrdAtAmqk&t=2s&ab_channel=Fireship">
+              <p class="youtube-video-title">
+                God-Tier Developer Roadmap
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@Fireship">
+              <p class="youtube-video-author">
+                Fireship
+              </p>
+            </a>
+
+
+            <p class="youtube-video-stats">
+              4.6M views &#183; 9mo ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev"><img class="images" src="images/video3.webp"></a>
+          <div class="video-time">6:31:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@SuperSimpleDev"><img class="yt-profile-picture" src="images/profile3.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev">
+              <p class="youtube-video-title">
+              HTML & CSS Full Course - Beginner to Pro
+            </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@SuperSimpleDev">
+              <p class="youtube-video-author">
+              SuperSimpleDev
+            </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              5M views &#183; 1y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=094y1Z2wpJg&t=7s&ab_channel=Veritasium"><img class="images" src="images/video4.webp"></a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@veritasium"><img class="yt-profile-picture" src="images/profile4.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=094y1Z2wpJg&t=7s&ab_channel=Veritasium">
+              <p class="youtube-video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@veritasium">
+              <p class="youtube-video-author">
+                Veritasium
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              34M views &#183; 1y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=OkmNXy7er84&ab_channel=3Blue1Brown"><img class="images" src="images/video5.webp"></a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@3blue1brown"><img class="yt-profile-picture" src="images/profile5.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=OkmNXy7er84&ab_channel=3Blue1Brown">
+              <p class="youtube-video-title">
+                The hardest problem on the hardest test
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@3blue1brown">
+              <p class="youtube-video-author">
+                3Blue1Brown
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              14M views &#183; 5y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience"><img class="images" src="images/video6.webp"></a>
+          <div class="video-time">11:06</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@domainofscience"><img class="yt-profile-picture" src="images/profile6.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience">
+              <p class="youtube-video-title">
+                The Map of Mathematics
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@domainofscience">
+              <p class="youtube-video-author">
+                Domain of Science
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              11M views &#183; 6y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=UMhxezNWC-o&t=1082s&ab_channel=ArtemMusic%E2%99%AB"><img class="images" src="images/video7.webp"></a>
+          <div class="video-time">34:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@ArtemMusic"><img class="yt-profile-picture" src="images/profile7.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=UMhxezNWC-o&t=1082s&ab_channel=ArtemMusic%E2%99%AB">
+              <p class="youtube-video-title">
+                &#127925; Most Awesome VIOLIN Music You Will Ever Hear &#127925; - NEOCLASSICAL 3 by Brand X Music - Full Album
+              </p>
+            </a>
+            <a class="youtube-link" href="https://www.youtube.com/@ArtemMusic">
+              <p class="youtube-video-author">
+                Artem Music
+              </p>
+            </a>
+            <p class="youtube-video-stats">
+              243K views &#183; 6mo ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann"><img class="images" src="images/video8.webp"></a>
+          <div class="video-time">5:50</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@TimoBingmann"><img class="yt-profile-picture" src="images/profile8.jpg"></a>
+          </div>
+          <div class="video-info">
+
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann">
+              <p class="youtube-video-title">
+                15 Sorting Algorithms in 6 Minutes
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@TimoBingmann">
+              <p class="youtube-video-author">
+                Timo Bingmann
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              23M views &#183; 10y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org"><img class="images" src="images/video9.webp"></a>
+          <div class="video-time">5:22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@freecodecamp"><img class="yt-profile-picture" src="images/profile9.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=8hly31xKli0&ab_channel=freeCodeCamp.org">
+              <p class="youtube-video-title">
+                Algorithms and Data Structures Tutorial - Full Course for Beginners
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@freecodecamp">
+              <p class="youtube-video-author">
+                freeCodeCamp.org
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              3.3M views &#183; 2y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=bOCHTHkBoAs&ab_channel=Fireship"><img class="images" src="images/video10.webp"></a>
+          <div class="video-time">9:32</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@Fireship"><img class="yt-profile-picture" src="images/profile10.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=bOCHTHkBoAs&ab_channel=Fireship">
+              <p class="youtube-video-title">
+                10 Math Concepts for Programmers
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@Fireship">
+              <p class="youtube-video-author">
+                Fireship
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              1M views &#183; 1mo ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=XKHEtdqhLK8&t=6s&ab_channel=BroCode"><img class="images" src="images/video11.webp"></a>
+          <div class="video-time">12:00:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@BroCodez"><img class="yt-profile-picture" src="images/profile11.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=XKHEtdqhLK8&t=6s&ab_channel=BroCode">
+              <p class="youtube-video-title">
+                Python Full Course for free &#128013;
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@BroCodez">
+            <p class="youtube-video-author">
+              Bro Code
+            </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              10M views &#183; 2y ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="preview-picture">
+          <a class="youtube-link" href="https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh"><img class="images" src="images/video12.webp"></a>
+          <div class="video-time">7:34</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="youtube-link" href="https://www.youtube.com/@programmingwithmosh"><img class="yt-profile-picture" src="images/profile12.jpg"></a>
+          </div>
+          <div class="video-info">
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh">
+              <p class="youtube-video-title">
+                Object-oriented Programming in 7 minutes | Mash
+              </p>
+            </a>
+
+            <a class="youtube-link" href="https://www.youtube.com/@programmingwithmosh">
+              <p class="youtube-video-author">
+                Programming with Mosh
+              </p>
+            </a>
+
+            <p class="youtube-video-stats">
+              3.3M views &#183; 5y ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>
